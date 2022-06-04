@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\PlanitAutomationAssessment\Jupiter.Toys\Tests.UI.Automated\bin\TestChromePremium\Tests.UI.Automated.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-06-04" time="14:54:26">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\PlanitAutomationAssessment\Jupiter.Toys\Tests.UI.Automated\bin\TestChromePremium" machine-name="DESKTOP-3FGOC3O" user="Nirmaan" user-domain="DESKTOP-3FGOC3O" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\PlanitAutomationAssessment\Jupiter.Toys\Tests.UI.Automated\bin\TestChromePremium\Tests.UI.Automated.dll" executed="True" result="Success" success="True" time="46.872" asserts="25">
+    <properties>
+      <property name="_PID" value="14140" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="Tests" executed="True" result="Success" success="True" time="46.847" asserts="25">
+        <results>
+          <test-suite type="TestSuite" name="UI" executed="True" result="Success" success="True" time="46.846" asserts="25">
+            <results>
+              <test-suite type="TestSuite" name="Automated" executed="True" result="Success" success="True" time="46.846" asserts="25">
+                <results>
+                  <test-suite type="TestSuite" name="Tests" executed="True" result="Success" success="True" time="46.846" asserts="25">
+                    <results>
+                      <test-suite type="TestFixture" name="ContactTests" executed="True" result="Success" success="True" time="38.113" asserts="16">
+                        <results>
+                          <test-case name="Tests.UI.Automated.Tests.ContactTests.ContactSubmitValidateErrors" executed="True" result="Success" success="True" time="14.447" asserts="6" />
+                          <test-case name="Tests.UI.Automated.Tests.ContactTests.ContactSubmitValidation" executed="True" result="Success" success="True" time="20.794" asserts="10">
+                            <properties>
+                              <property name="Repeat" value="5" />
+                            </properties>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ShopItemsTests" executed="True" result="Success" success="True" time="8.721" asserts="9">
+                        <results>
+                          <test-case name="Tests.UI.Automated.Tests.ShopItemsTests.VerifyItemsPricesInCart" executed="True" result="Success" success="True" time="6.400" asserts="7" />
+                          <test-case name="Tests.UI.Automated.Tests.ShopItemsTests.VerifyItemsQuantitiesInCart" executed="True" result="Success" success="True" time="0.639" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

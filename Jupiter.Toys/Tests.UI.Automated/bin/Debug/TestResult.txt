@@ -1,0 +1,48 @@
+=> Tests.UI.Automated.Tests.ContactTests.ContactSubmitValidateErrors
+From the home page go to contact page
+Click submit button
+Validate errors
+Populate mandatory fields
+Validate errors are gone
+=> Tests.UI.Automated.Tests.ContactTests.ContactSubmitValidation
+From the home page go to contact page
+Populate mandatory fields
+Click submit button
+Validate successful submission message
+From the home page go to contact page
+Populate mandatory fields
+Click submit button
+Validate successful submission message
+From the home page go to contact page
+Populate mandatory fields
+Click submit button
+Validate successful submission message
+From the home page go to contact page
+Populate mandatory fields
+Click submit button
+Validate successful submission message
+From the home page go to contact page
+Populate mandatory fields
+Click submit button
+Validate successful submission message
+=> Tests.UI.Automated.Tests.ShopItemsTests.VerifyItemsPricesInCart
+From the home page go to shop page
+Click buy button 2 times on 'Stuffed Frog'
+Click buy button 5 times on 'Fluffy Bunny'
+Click buy button 3 times on 'Valentine Bear'
+Get unit prices for Stuffed Frog, Fluffy Bunny, Valentine Bear in Shop page
+Click the cart menu
+Get unit prices for Stuffed Frog, Fluffy Bunny, Valentine Bear in Cart page
+Verify the price for each product
+Calculate expected sub totals for the products
+Get sub totals for Stuffed Frog, Fluffy Bunny, Valentine Bear in Cart page
+Verify sub totals for each product
+Calculate expected sub totals for the products
+Get total from Cart page
+Verify that total = sum(sub totals)
+=> Tests.UI.Automated.Tests.ShopItemsTests.VerifyItemsQuantitiesInCart
+From the home page go to shop page
+Click buy button 2 times on 'Funny Cow'
+Click buy button 1 time on 'Fluffy Bunny'
+Click the cart menu
+Verify the items are in the cart

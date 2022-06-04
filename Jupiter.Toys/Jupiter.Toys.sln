@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.UI.Automated", "Tests.UI.Automated\Tests.UI.Automated.csproj", "{ECD3F77A-4069-4346-B1B9-1E569EF5820B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{88808DB3-E16C-4788-A061-6B512644F3DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TestChromePremium|Any CPU = TestChromePremium|Any CPU
+		TestSafariMacSauceLabs|Any CPU = TestSafariMacSauceLabs|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.TestChromePremium|Any CPU.ActiveCfg = TestChromePremium|Any CPU
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.TestChromePremium|Any CPU.Build.0 = TestChromePremium|Any CPU
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.TestSafariMacSauceLabs|Any CPU.ActiveCfg = TestSafariMacSauceLabs|Any CPU
+		{ECD3F77A-4069-4346-B1B9-1E569EF5820B}.TestSafariMacSauceLabs|Any CPU.Build.0 = TestSafariMacSauceLabs|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.TestChromePremium|Any CPU.ActiveCfg = Debug|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.TestChromePremium|Any CPU.Build.0 = Debug|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.TestSafariMacSauceLabs|Any CPU.ActiveCfg = Debug|Any CPU
+		{88808DB3-E16C-4788-A061-6B512644F3DA}.TestSafariMacSauceLabs|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37500752-707C-447A-82B0-FE6AEF1AE3CF}
+	EndGlobalSection
+EndGlobal
